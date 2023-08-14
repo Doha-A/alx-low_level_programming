@@ -7,10 +7,9 @@
 
 int main(void)
 {
-	int n = 0;
-	char i;
+	int n;
 
-	i = n + '0';
+	text[i] = n + '0';
 	for (; i <= 9; i++)
 		putchar(i);
 	putchar('\n');
