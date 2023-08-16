@@ -7,5 +7,4 @@
  */
 
 int _putchar (int c);
-char *printing = "_putchar\n";
 void print_alphabet(void);
