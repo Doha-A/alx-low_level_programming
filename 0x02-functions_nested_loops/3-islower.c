@@ -3,7 +3,7 @@
 /**
  * _islower - Checks if the letter is lowercase or uppercase
  * @c: alphabet character
- * Return: 1 if lowercase, 0 if uppercase
+ * Return: 1 if lowercase, else returns
 */
 
 int _islower(int c);
@@ -13,13 +13,9 @@ int _islower(int c);
 	{
 		return (1);
 	}
-	else if ((c + '0') >= 'A' && (c + '0') <= 'Z')
-	{
-		return (0);
-	}
 	else
 	{
-		break;
+		return (0);
 	}
 }
 
