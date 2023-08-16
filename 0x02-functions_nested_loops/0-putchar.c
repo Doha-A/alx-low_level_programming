@@ -10,7 +10,7 @@
 int main(void)
 {
 
-	write(1, Putchar, 9);
+	write(1, printing, 9);
 
 	return (0);
 }
