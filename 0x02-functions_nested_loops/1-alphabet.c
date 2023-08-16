@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
+
 /**
  * print_alphabet - function that prints the alphabet in lowercase
+ * main - Calls the print_alphabet fn
  * Return: returning 0 success
 */
 
@@ -19,5 +21,5 @@ char print_alphabet(void)
 
 int main(void)
 {
-	write(2, print_alphabet, 27);
+	print_alphabet();
 }
