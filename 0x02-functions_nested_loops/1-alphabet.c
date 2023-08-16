@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - a function that prints the alphabet in lowercase
- * Return: returning 0 success
+ * Return: returning nothing
 */
 
 void print_alphabet(void)
@@ -12,5 +12,4 @@ void print_alphabet(void)
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 	_putchar('\n');
-	return (void);
 }
