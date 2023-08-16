@@ -12,4 +12,11 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 char *Putchar = "_putchar\n";
-void print_alphabet(void);
+
+void print_alphabet(void)
+{
+        char c;
+        for (c = 'a'; c <= 'z'; c++)
+                putchar(c);
+        putchar('\n');
+}
