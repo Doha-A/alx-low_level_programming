@@ -3,7 +3,7 @@
 
 /**
  * print_alphabet - function that prints the alphabet in lowercase
- * main - Calls the print_alphabet fn
+ * main - Calls the fn
  * Return: returning 0 success
 */
 
