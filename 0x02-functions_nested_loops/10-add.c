@@ -2,8 +2,8 @@
 
 /**
  * add - a function that prints the addition of 2 numbers
- * @num1 - first number
- * @num2 - second number
+ * @num1: first number
+ * @num2: second number
  * Return: returns the last digit
 */
 
