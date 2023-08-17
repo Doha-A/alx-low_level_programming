@@ -1,6 +1,6 @@
 /**
  * times_table - prints the 9 times table
- * Return: returns the last digit
+ * Return: void
 */
 void times_table(void)
 {
