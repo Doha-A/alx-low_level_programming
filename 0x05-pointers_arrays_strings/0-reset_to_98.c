@@ -11,5 +11,10 @@
 
 void reset_to_98(int *n)
 {
-	n = 98;
+	*n = 402;
+	int m;
+
+	m = 98;
+	reset_to_98(m);
+
 }
