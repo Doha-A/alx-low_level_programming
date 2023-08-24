@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strncpy - a function that copies n characters of the string pointed to
@@ -15,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	count = 0;
 
-	while (src[count] != '\0' && n < count)
+	while (src[count] != '\0' && count < n)
 	{
 		dest[count] = src[count];
 		count++;
