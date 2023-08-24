@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rev_array - a function that reverse a string.
+ * reverse_array - a function that reverse a string.
  * @a: int pointer
  * @n: array length
  * Return: returning success
@@ -15,8 +15,8 @@ void reverse_array(int *a, int n);
 
 	for (i = 0; i < n / 2; i++)
 	{
-		temp = s[i];
-		s[i] = s[n - i - 1];
-		s[n - i - 1] = temp;
+		temp = a[i];
+		a[i] = a[n - i - 1];
+		a[n - i - 1] = temp;
 	}
 }
