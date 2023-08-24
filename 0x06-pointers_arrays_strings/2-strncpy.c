@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strncpy - a function that copies n characters of the string pointed to by src
- * to the buffer pointed to by dest
+ * _strncpy - a function that copies n characters of the string pointed to
+ * by src to the buffer pointed to by dest
  * @dest: first char pointer
  * @src: second xhar pointer
+ * @n: number of characters to be copied
  * Return: returning dest
 */
 
@@ -22,11 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 
 	while (count < n)
-	{
 		dest[count] = '\0';
-		count++
-	}
-	
-	return (dest);
 
+	return (dest);
 }
