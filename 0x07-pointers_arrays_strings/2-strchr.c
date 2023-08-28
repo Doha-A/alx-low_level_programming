@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _memcpy - a function that locates a character in a string.
+ * _strchr - a function that locates a character in a string.
  * @s: char pointer (string)
- * @s: character looking for its first occurance
+ * @c: character the program is looking for its first occurance
  * Return: returns a pointer to the first occurrence of the character c
  * returns NULL if the character is not found
 */
