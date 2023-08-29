@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * swap_int - a function that prints the sum of the two diagonals of a square matrix of integers.
+ * print_diagsums - a function that prints the sum of the two diagonals
+ * of a square matrix of integers.
  * @a: first int pointer
  * @size: integer
  * Return: returning nothing
